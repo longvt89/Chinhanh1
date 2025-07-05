@@ -1411,12 +1411,12 @@
             })
             .then(data => {
                 if (data.result === 'success') {
-                    alert('✅ Gửi thông tin thành công!');
+                    alert('✅ Đã gửi xong nha Đại Ca!');
                     console.log('Dữ liệu đã gửi:', data.row);
                     // Có thể reset form tại đây nếu muốn
                     // document.getElementById('yourFormId').reset(); 
                 } else {
-                    alert('❌ Có lỗi xảy ra khi gửi: ' + (data.message || 'Lỗi không xác định từ Apps Script.'));
+                    alert('❌ Có lỗi rồi đại ca ơi: ' + (data.message || 'Lỗi không xác định từ Apps Script.'));
                     console.error('Lỗi từ Apps Script:', data.message);
                 }
             })
